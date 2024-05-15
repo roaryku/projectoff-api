@@ -1,0 +1,345 @@
+
+.bodyNutrition{
+  /* background-image: url("./nutrition/nutrition.jpg"); */
+  background-position: left;
+  background-size: cover;
+  background-repeat: repeat;
+  min-height: 90vh;
+  /* background-color: #ebebeb; */
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.headerNutrition{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #990810;
+  font-size: 40px;
+  padding: 50px;
+  margin: 0;
+}
+.formNutrition{
+  text-align: center;
+}
+.inputNutrition{
+  padding: 10px;
+  width: 30%;
+  border: none;
+  box-shadow: 2px 2px 2px #ef9463;
+  color: #050525;
+  font-family: "Poppins", sans-serif;
+}
+.btnNutrition{
+  padding: 10px;
+  width: 100px;
+  border: none;
+  background-color: #f0b392;
+  box-shadow: 2px 2px 2px #ef9463;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.btnNutrition:hover{
+  color: #ef9463;
+  background-color: #fff;;
+}
+.parContainer-nutr{
+  background-color: rgba(0,0,0,0.1);
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.par-nutr{
+  text-align: center;
+  color: #141617;
+  font-family: "Poppins", sans-serif;
+}
+.parNutr{
+  text-align: center;
+  color: #022143;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+.par-nutr:hover, .parNutrition:hover{
+  background-color: #e7e7e7;
+  padding: 10px;
+}
+span{
+  color: #b01930;
+}
+.parNutrition{
+  color: #b01930;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.App {
+  background-color: rgba(255, 255, 255, 0.5);
+  min-height: 90vh;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575756;
+  border: 2px solid #4a4235;
+  -webkit-box-shadow: inset 0px 0px 0px 4px #ecc69a;
+  -webkit-appearance: none;
+  border-radius: 3px;
+}
+.heading{
+  margin-right: 95px;
+}
+.btn{
+  border: 1px solid #4a4235;
+  box-shadow: inset 0px 0px 0px 4px #ecc69a;
+  background-color: transparent;
+  margin-right: -360px;
+  margin-top: -46px;
+  border-radius: 3px;
+}
+.btn:hover{
+  background-color: #4a4235;
+  border: none;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tasty{
+  background: #ffff;
+  border: 1px solid #4a4235;
+  box-shadow: inset 0px 0px 0px 4px #ecc69a;
+  padding: 10px 10px;
+  outline: transparent;
+  transition: box-shadow .2s ease-in-out;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+.tastyRecipe{
+  background: #fff;
+  padding: 24px 24px;
+  outline: transparent;
+  border: 1px solid black;
+  box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+  transition: box-shadow .2s ease-in-out;
+  width: 200px;
+} 
+.par{
+  display: block;
+  font-size: 18px;
+  margin: 0;
+  padding: .4em .4em .4em .8em;
+  color: #020202;
+  font-family: 'Roboto', sans-serif;
+}
+li{
+  display: block;
+  padding: .4em .4em .4em .8em;
+  font-size: 20px;
+  color: #020202;
+  font-family: 'Roboto', sans-serif;
+}
+li:hover{
+  background: #f1ebe7;
+}
+ul {
+  list-style: none; 
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.icons{
+  width: 33px;
+}
+
+.icon{
+  width: 20px;
+}
+
+h1, h2, h3, ul, p{
+  font-family: 'Roboto', sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: 800;
+  font-style: normal;
+}
+
+.containerRecipes{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.searchRecipe {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  color: #000;
+  box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+  }
+  .tastyRecipe{
+    background: #fff;
+    padding: 24px 24px;
+    outline: transparent;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+    transition: box-shadow .2s ease-in-out;
+    width: 150px;
+  }
+  .liRecipe{
+    display: block;
+    padding: .2em .2em .2em .4em ;
+    margin: .5em 5em .5em;
+    background: #dde8a0f0;
+  }
+  .liRecipe:hover{
+    background: #DCDDE1;
+  }
+  .cta {
+    margin-top: 10px;
+    border: 1px solid #4f281f;
+    padding: 2px 12px;
+    background-color: transparent;
+    outline: transparent;
+    box-shadow: inset 0px 0px 0px 4px #dde8a0f0;
+    transition: box-shadow .2s ease-in-out;
+   } 
+   .cta:hover{
+      background-color: #5b6429;
+    }
+    .par{
+      color: #b01930;
+      font-weight: bolder;
+      font-family: "Scope One", serif;
+      text-transform: uppercase;
+      }
+    .par:hover{
+      background: #f1ebe7;
+    }
+      .scope-one-regular {
+        font-family: "Scope One", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .nav{
+        background-color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+      }
+      .link{
+        padding: 10px 40px;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        color: #050525;
+        font-weight: bolder;
+      }
+    .link:hover{
+      color: #b01930;
+    }
+
+  .HomeHeader{
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 90vh;
+    padding: 15px;
+    
+  }
+  .AppHome{
+    margin-top: 80px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    /* color: #020202; */
+    color: #b01930;
+  }
+  .AppPar{
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    /* color: #b01930; */
+    color: #020202;
+  }
+  .menu{
+    margin-top: 60px;
+    font-size: 15px;
+    color: #4d9d5c;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+  }
+
+
+@media all and (max-width: 500px){
+  h1{
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  h2, h3{
+    font-size: 15px;
+  }
+  li, .par{
+    font-size: 15px;
+  }
+  .search{
+    width: 90%;
+  }
+  .btn{
+    border: 2px solid #4a4235;
+  }
+  
+}
+
+
+
+
+
+@media all and (max-width: 800px){
+  .bodyNutrition{
+    background-position: right;
+    min-height: 100vh;
+  }
+  .formNutrition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .inputNutrition{
+    width: 70%;
+    margin: 20px;
+  }
+  .btnNutrition{
+    width: 40%;
+  }
+ 
+  .parContainer-nutr{
+    background-color: rgba(0,0,0,0.3);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .link{
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .AppHome{
+    font-size: 40px;
+  }
+}
