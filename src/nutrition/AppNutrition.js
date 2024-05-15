@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './index.css';
 import video from './nutrition.mp4';
 import { Nutrition } from './Nutrition';
 import { LoaderPage } from './LoaderPage';

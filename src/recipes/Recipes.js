@@ -1,5 +1,4 @@
 import { useEffect, useState} from 'react';
-import './index.css';
 import video from './recipes.mp4';
 import image from './salad.png';
 import MyRecipesComponent from './MyRecipesComponent';

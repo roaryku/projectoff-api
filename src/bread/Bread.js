@@ -1,4 +1,4 @@
-import './index.css';
+
 import { useEffect, useState } from 'react';
 import { useCallback } from 'react';
 import video from './bread.mp4';

@@ -1,6 +1,6 @@
 export const Loader = () => {
     return (
-        <div class="lds-facebook">
+        <div class="lds-bread">
             <div></div>
             <div></div>
             <div></div>
