@@ -56,7 +56,7 @@ const handleClick = () => {
       {stateLoader && <LoaderPage/>}
 
       <div className='container'>
-        <video autoPlay muted loop>
+        <video autoPlay muted loop playsInline>
           <source src={video} type="video/mp4"/>
         </video>
         <h1>Find your bread recipe</h1>

@@ -32,7 +32,6 @@ function AppNutrition() {
       setStateLoader(false);
       const data = await response.json();
       setMyNutrition(data);
-      console.log(data)
     } else {
       setStateLoader(false);
       Swal.fire("Ingredients entered incorectly!");
@@ -59,7 +58,7 @@ return (
     <div className='bodyNutrition'>
     {stateLoader && <LoaderPage/>}
 
-        <video autoPlay muted loop>
+        <video autoPlay muted loop playsInline>
           <source src={video} type="video/mp4"/>
         </video>
 
