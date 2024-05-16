@@ -4,7 +4,7 @@ function Home (){
    return(
     <div>
         <div>
-          <video autoPlay muted loop>
+          <video autoPlay muted loop playsInline>
             <source src={video} type='video/mp4'/>
           </video>
 
